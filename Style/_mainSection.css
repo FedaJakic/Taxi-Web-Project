@@ -21,8 +21,6 @@
 
 .main_content h1 {
   font-size: 4rem;
-  /* background-color: #ff8177;
-      background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
   background-color: #af5050;
   background-image: linear-gradient(to top, #92782e 0%, #f5cb5c 100%);
   background-size: 100%;
@@ -34,7 +32,6 @@
 
 .main_content h2 {
   font-size: 4rem;
-  /* background-color: #ff8177; */
   background-color: #af5050;
   background-image: linear-gradient(to top, #92782e 0%, #f5cb5c 100%);
   background-size: 100%;
@@ -79,7 +76,6 @@
   left: 0;
   width: 0;
   height: 100%;
-  /* background-color: #5e17eb; */
   background-color: #3f3d56;
   transition: all 0.35s;
   border-radius: 4px;

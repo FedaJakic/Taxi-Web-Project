@@ -7,11 +7,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  min-height: 100vh;
-  background-color: #131313;
-} */
-
 section {
   min-height: 92vh;
   display: flex;
@@ -48,13 +43,6 @@ section {
   text-align: justify;
   margin-bottom: 40px;
 }
-
-/* .skills {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 13px;
-} */
 
 @media screen and (max-width: 1200px) {
   .inner-container {
