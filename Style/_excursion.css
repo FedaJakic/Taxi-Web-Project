@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 92vh;
 }
 
 .excursion h1 {
@@ -20,7 +19,7 @@
     #b49746 100%
   );
   background-size: 100%;
-  font-size: 2.5rem;
+  font-size: 55px;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -73,7 +72,6 @@
       rgba(17, 17, 17, 0.6) 100%
     ),
     url(../Content/Images/airport.jpg);
-  background-size: cover;
 }
 
 .excursion h2 {
@@ -106,29 +104,4 @@
   transform: scale(1.075);
   transition: 0.2s ease-in;
   cursor: pointer;
-}
-
-@media screen and (max-width: 960px) {
-  .excursion {
-    height: 1600px;
-  }
-
-  .excursion h1 {
-    font-size: 2rem;
-    margin-top: 12rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .excursion {
-    height: 1400px;
-  }
-
-  .excursion h1 {
-    font-size: 1.2rem;
-  }
-
-  .excursion_card {
-    width: 300px;
-  }
 }
