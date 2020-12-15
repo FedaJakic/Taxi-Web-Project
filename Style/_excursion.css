@@ -105,3 +105,41 @@
   transition: 0.2s ease-in;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .excursion {
+    text-align: center;
+  }
+
+  .excursion h1 {
+    font-size: 38px;
+  }
+
+  .excursion-heading-two {
+    margin-bottom: 80px;
+  }
+
+  .excursion_card {
+    height: 475px;
+    width: 350px;
+  }
+
+  .excursion h2 {
+    top: 320px;
+    left: 17px;
+  }
+
+  .excursion_card p {
+    top: 370px;
+    left: 17px;
+    text-align: left;
+  }
+
+  .excursion_card button {
+    top: 410px;
+    left: 17px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
