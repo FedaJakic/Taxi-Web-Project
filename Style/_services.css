@@ -3,7 +3,7 @@
 .services-section {
   background-color: #131313;
   padding: 60px 0;
-  height: 92vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,20 +71,21 @@
   font-size: 14px;
 }
 
-/* @media screen and (max-width: 960px) {
-  .service-box {
-    max-width: 45%;
+/* iPhoneX MEDIA */
+@media screen and (max-width: 375px) {
+  .services-section {
+    height: 100%;
+  }
+
+  .service-title {
+    font-size: 16px;
+  }
+
+  .service-desc {
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 36px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .service-box {
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .service-box {
-    max-width: 100%;
-  }
-} */
