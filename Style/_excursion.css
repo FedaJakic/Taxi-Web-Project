@@ -102,7 +102,8 @@
 }
 
 .excursion_card:hover {
-  transform: scale(1.075);
+  /* transform: scale(1.075); */
+  transform: scale(1.05);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
@@ -185,3 +186,201 @@
     left: 30px;
   }
 }
+
+/* .excursion_container {
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.excursion_container .excursion_card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #cfdbd5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  /* box-shadow: 0 20px 50px rgb(78, 74, 74);
+  overflow: hidden;
+}
+
+.excursion_container .excursion_card:nth-child(1) {
+  background-image: url("../Content/Images/dubrovnik.jpg");
+  background-size: cover;
+}
+
+.excursion_container .excursion_card:nth-child(2) {
+  background-image: url("../Content/Images/island.jpg");
+  background-size: cover;
+}
+
+.excursion_container .excursion_card:nth-child(3) {
+  background-image: url("../Content/Images/airport.jpg");
+  background-size: cover;
+}
+
+.excursion_container .excursion_card {
+  opacity: 0.2;
+}
+
+/* .excursion_container:hover .excursion_card {
+  opacity: 1;
+}
+
+.excursion_container .excursion_card:hover {
+  opacity: 1;
+}
+
+.excursion_container .excursion_card span {
+  transform: 0.5;
+  opacity: 0;
+}
+
+.excursion_container .excursion_card:hover span {
+  opacity: 1;
+}
+
+.excursion_card::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 50%;
+  background: #f5cb5c;
+  pointer-events: none;
+}
+
+.excursion_container .excursion_card .excursion_content {
+  padding: 30px;
+  text-align: center;
+}
+
+.excursion_container .excursion_card .excursion_content h2 {
+  position: relative;
+  font-weight: 1.5em;
+  color: #131313;
+  z-index: 2;
+  opacity: 0.5;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.excursion_container .excursion_card:hover .excursion_content h2,
+.excursion_container .excursion_card:hover .excursion_content p {
+  opacity: 1;
+}
+
+.excursion_container .excursion_card .excursion_content p {
+  position: relative;
+  font-weight: 1em;
+  color: #131313;
+  z-index: 2;
+  opacity: 0.5;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.excursion_container .excursion_card .excursion_content a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #fff;
+  color: #131313;
+  z-index: 2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.excursion_container .excursion_card:hover span {
+  opacity: 1;
+}
+
+.excursion_container .excursion_card span {
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.excursion_container .excursion_card span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #ff6584);
+  animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.excursion_container .excursion_card span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #ff6584);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.excursion_container .excursion_card span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left, transparent, #ff6584);
+  animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.excursion_container .excursion_card span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #ff6584);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+} */
